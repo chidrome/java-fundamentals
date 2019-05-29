@@ -34,4 +34,17 @@ public class LibraryTest {
         double average = getAverage(inputArray);
         assertTrue("should return average ",average == 3.5);
     }
+
+    @Test
+    public void testAverageCalcNestedArray(){
+        int[][] weeklyMonthTemperatures = {
+                {66, 64, 58, 65, 71, 57, 60},
+                {57, 65, 65, 70, 72, 65, 51},
+                {55, 54, 60, 53, 59, 57, 61},
+                {65, 56, 55, 52, 55, 62, 57}
+        };
+        double average = lowestAvg(weeklyMonthTemperatures);
+        assertEquals("LowsestAvg is: ",57.0, average, 0.01);
+
+    }
 }
