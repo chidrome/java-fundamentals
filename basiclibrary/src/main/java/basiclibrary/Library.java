@@ -51,7 +51,7 @@ public class Library {
     }
 
     // calculate the averages of each array and return the lowest
-    public static int lowestAvg(int[][] inputArray){
+    public static double lowestAvg(int[][] inputArray){
         // specify an array with the averages
         double[] avgsArray = new double[inputArray.length];
         // index array average
@@ -68,6 +68,7 @@ public class Library {
         }
         Arrays.sort(avgsArray);
         double lowestAverage = avgsArray[0];
+        return lowestAverage;
     }
 
 }
