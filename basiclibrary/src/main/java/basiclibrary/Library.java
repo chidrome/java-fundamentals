@@ -69,6 +69,7 @@ public class Library {
         Arrays.sort(avgsArray);
         double lowestAverage = avgsArray[0];
         return lowestAverage;
+        
     }
 
 }
