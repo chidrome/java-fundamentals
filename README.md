@@ -15,7 +15,7 @@ Contains methods for
 roll, containsDuplicates, 
 getAverage, and lowestAvg.
 
-[Code](./basiclibrary/src/main/java/basiclibrary.Library.java)
+[Code](./basiclibrary/src/main/java/basiclibrary/Library.java)
 
-[Test Code](./basiclibrary/test/java/basiclibrary/LibraryTest.java)
+[Test Code](./basiclibrary/src/test/java/basiclibrary/LibraryTest.java)
 
