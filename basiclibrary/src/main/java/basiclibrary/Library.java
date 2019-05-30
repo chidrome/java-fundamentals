@@ -4,6 +4,7 @@
 package basiclibrary;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class Library {
 
@@ -70,6 +71,46 @@ public class Library {
         double lowestAverage = avgsArray[0];
         return lowestAverage;
         
+    }
+
+    public static void analyzeWeatherData(int[][] inputArray) {
+        // declare min and max values
+        int minValue = inputArray[0][0];
+        int maxValue = 0;
+
+        // create a hashset
+        HashSet<Integer> uniqueTemp = new HashSet<>();
+
+        // loop through the input array and
+        for(int i = 0; i < inputArray.length; i++){
+            for(int j = 0; j < inputArray[i].length; j++){
+                // add to the hashset if number doesn't exist
+                uniqueTemp.add(inputArray[i][j]);
+
+                // set the max value
+                if(inputArray[i][j]  > maxValue){
+                    maxValue = inputArray[i][j];
+                }
+
+                // set the min value
+                if(inputArray[i][j] < minValue){
+                    minValue = inputArray[i][j];
+                }
+            }
+        }
+
+        // print high and lows
+        System.out.println("High: " + maxValue);
+        System.out.println("Low: " + minValue);
+
+        // loop through the min and max values and
+        // check if the hashset contains that number and
+        // print the number not seen
+        for(int i = minValue; i < maxValue; i++){
+            if (!uniqueTemp.contains(i)){
+                System.out.println("Never saw temperature: " + i);
+            }
+        }
     }
 
 }
