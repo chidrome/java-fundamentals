@@ -17,6 +17,8 @@ public class RestaurantTest {
         testRestaurant = new Restaurant("Boiling Point", 4, "$$");
     }
 
+
+    
     // test restaurant constructor
     @Test
     public void testRestaurantConstructor(){

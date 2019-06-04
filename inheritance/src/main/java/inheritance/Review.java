@@ -12,6 +12,7 @@ public class Review {
         this.stars = stars;
     }
 
+    
     // toString method
     public String toString() {
         return String.format("This restaurant is rated %d stars with the review %s from %s.", this.getStars(), this.getBody(), this.getAuthor());

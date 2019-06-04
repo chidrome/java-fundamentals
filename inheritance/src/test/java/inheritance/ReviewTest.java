@@ -13,6 +13,7 @@ public class ReviewTest {
     public void init(){
         testReview = new Review("This restaurant is really good.", "Paolo", 4);
     }
+    
 
     // test review constructor
     @Test

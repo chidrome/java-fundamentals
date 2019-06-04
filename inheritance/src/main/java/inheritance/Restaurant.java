@@ -14,6 +14,7 @@ public class Restaurant {
     }
 
     // toString method
+    
     public String toString() {
         return String.format("This restaurant %s has a %d star rating and %s pricing.", this.getName(), this.getRating(), this.getPrice());
     }
