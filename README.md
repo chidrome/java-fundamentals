@@ -19,3 +19,15 @@ getAverage, and lowestAvg.
 
 [Test Code](./basiclibrary/src/test/java/basiclibrary/LibraryTest.java)
 
+
+**Lab 6 Inheritance**
+
+Contains Restaurants and Review classes.
+
+[Restaurant Class Code](./inheritance/src/main/java/inheritance/Restaurant.java)
+
+[Review Class Code](./inheritance/src/main/java/inheritance/Review.java)
+
+[Restaurant Test Code](./inheritance/src/test/java/inheritance/RestaurantTest.java)
+
+[Review Test Code](./inheritance/src/test/java/inheritance/ReviewTest.java)
