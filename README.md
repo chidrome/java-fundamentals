@@ -31,3 +31,13 @@ Contains Restaurants and Review classes.
 [Restaurant Test Code](./inheritance/src/test/java/inheritance/RestaurantTest.java)
 
 [Review Test Code](./inheritance/src/test/java/inheritance/ReviewTest.java)
+
+**Lab 7 Inheritance**
+
+[Shop Class Code](./inheritance/src/main/java/inheritance/Shop.java)
+
+[Theater Class Code](./inheritance/src/main/java/inheritance/Theater.java)
+
+[Shop Test Code](./inheritance/src/test/java/inheritance/ShopTest.java)
+
+[Theater Test Code](./inheritance/src/test/java/inheritance/TheaterTest.java)
